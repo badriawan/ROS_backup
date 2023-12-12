@@ -1,0 +1,7 @@
+[01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:[m[K In constructor '[01m[KLaserScan::LaserScan()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:25:37:[m[K [01;31m[Kerror: [m[Kwrong type argument to bit-complement
+   25 |       500ms, std::bind(&~[01;31m[KLaserScan::timer_callback[m[K, this));
+      |                          [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/LaserScan.dir/build.make:76: CMakeFiles/LaserScan.dir/src/laserscan.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/LaserScan.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

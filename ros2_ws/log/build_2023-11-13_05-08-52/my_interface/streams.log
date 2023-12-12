@@ -1,0 +1,35 @@
+[0.156s] Invoking command in '/home/user/ros2_ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_interface -- -j8 -l8
+[1.560s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.561s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.561s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.561s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.563s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[1.564s] -- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[2.931s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[3.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.983s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[4.026s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.026s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.026s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.050s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.066s] -- Added test 'lint_cmake' to check CMake code style
+[4.068s] -- Added test 'xmllint' to check XML markup files
+[4.071s] -- Configuring done
+[4.129s] -- Generating done
+[4.136s] -- Build files have been written to: /home/user/ros2_ws/build/my_interface
+[4.209s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.537s] Traceback (most recent call last):
+[4.538s]   File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[4.538s]     sys.exit(main())
+[4.538s]   File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[4.538s]     generate_type_hash(args.generator_arguments_file)
+[4.538s]   File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash
+[4.538s]     pkg_dir = include_map[pkg]
+[4.539s] KeyError: 'geometry_msgs'
+[4.561s] gmake[2]: *** [CMakeFiles/my_interface__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/my_interface/msg/Targetcoordinate.json] Error 1
+[4.561s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/my_interface__rosidl_generator_type_description.dir/all] Error 2
+[4.561s] gmake: *** [Makefile:146: all] Error 2
+[4.569s] Invoked command in '/home/user/ros2_ws/build/my_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_interface -- -j8 -l8

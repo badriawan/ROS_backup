@@ -1,0 +1,10 @@
+[0.024s] Invoking command in '/home/user/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_cpp -- -j8 -l8
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.387s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Int16: No such file or directory
+[0.387s]     8 | #include [01;31m[K"std_msgs/msg/Int16"[m[K
+[0.387s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.387s] compilation terminated.
+[0.390s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[0.390s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Error 2
+[0.390s] gmake: *** [Makefile:146: all] Error 2
+[0.392s] Invoked command in '/home/user/ros2_ws/build/robot_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_cpp -- -j8 -l8

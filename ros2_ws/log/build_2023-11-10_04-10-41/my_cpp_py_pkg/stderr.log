@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:15 (include_directory):
+  Unknown CMake command "include_directory".
+
+[0m

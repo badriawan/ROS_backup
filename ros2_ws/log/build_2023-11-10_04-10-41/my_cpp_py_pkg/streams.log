@@ -1,0 +1,33 @@
+[0.108s] Invoking command in '/home/user/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_cpp_py_pkg
+[4.391s] -- The C compiler identification is GNU 11.3.0
+[6.231s] -- The CXX compiler identification is GNU 11.3.0
+[6.248s] -- Detecting C compiler ABI info
+[6.413s] -- Detecting C compiler ABI info - done
+[6.423s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.423s] -- Detecting C compile features
+[6.424s] -- Detecting C compile features - done
+[6.430s] -- Detecting CXX compiler ABI info
+[6.530s] -- Detecting CXX compiler ABI info - done
+[6.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.541s] -- Detecting CXX compile features
+[6.542s] -- Detecting CXX compile features - done
+[6.555s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[7.036s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[7.254s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[7.400s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[7.437s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[7.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.918s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[7.931s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[8.652s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.704s] -- Found FastRTPS: /opt/ros/iron/include  
+[8.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.275s] -- Found rclpy: 4.1.1 (/opt/ros/iron/share/rclpy/cmake)
+[9.275s] [31mCMake Error at CMakeLists.txt:15 (include_directory):
+[9.275s]   Unknown CMake command "include_directory".
+[9.275s] 
+[9.275s] [0m
+[9.276s] -- Configuring incomplete, errors occurred!
+[9.276s] See also "/home/user/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/CMakeOutput.log".
+[9.286s] Invoked command in '/home/user/ros2_ws/build/my_cpp_py_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_cpp_py_pkg

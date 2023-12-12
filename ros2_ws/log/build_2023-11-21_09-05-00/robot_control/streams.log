@@ -1,0 +1,24 @@
+[0.076s] Invoking command in '/home/user/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_control -- -j8 -l8
+[1.133s] [ 50%] Built target publisher_member_function.cpp
+[1.134s] [100%] Built target listener
+[1.147s] Invoked command in '/home/user/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_control -- -j8 -l8
+[1.427s] Invoking command in '/home/user/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_control
+[1.495s] -- Install configuration: ""
+[1.495s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/lib/robot_control/publisher_member_function.cpp
+[1.495s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/lib/robot_control/listener
+[1.496s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[1.496s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[1.497s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[1.497s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[1.498s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+[1.498s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+[1.499s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+[1.499s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+[1.499s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+[1.508s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+[1.508s] -- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/package.dsv
+[1.509s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[1.509s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[1.509s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[1.510s] -- Up-to-date: /home/user/ros2_ws/install/robot_control/share/robot_control/package.xml
+[1.510s] Invoked command in '/home/user/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_control

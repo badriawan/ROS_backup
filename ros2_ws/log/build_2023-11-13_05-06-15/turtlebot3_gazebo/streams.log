@@ -1,0 +1,5 @@
+[1.208s] Invoking command in '/home/user/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8
+[1.501s] [ 25%] Built target turtlebot3_drive
+[1.674s] [ 50%] Built target obstacles
+[1.888s] [ 75%] Built target obstacle2
+[2.018s] [100%] Built target obstacle1

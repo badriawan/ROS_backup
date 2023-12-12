@@ -1,0 +1,42 @@
+[0.078s] Invoking command in '/home/user/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_cpp_py_pkg -- -j8 -l8
+[0.805s] [  0%] Built target ament_cmake_python_copy_my_cpp_py_pkg
+[0.805s] [100%] Built target cpp_exe
+[0.970s] running egg_info
+[0.972s] writing my_cpp_py_pkg.egg-info/PKG-INFO
+[0.972s] writing dependency_links to my_cpp_py_pkg.egg-info/dependency_links.txt
+[0.973s] writing top-level names to my_cpp_py_pkg.egg-info/top_level.txt
+[0.977s] reading manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[1.052s] writing manifest file 'my_cpp_py_pkg.egg-info/SOURCES.txt'
+[1.269s] [100%] Built target ament_cmake_python_build_my_cpp_py_pkg_egg
+[1.372s] Invoked command in '/home/user/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_cpp_py_pkg -- -j8 -l8
+[1.560s] Invoking command in '/home/user/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_cpp_py_pkg
+[1.658s] -- Install configuration: ""
+[1.658s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_exe
+[1.659s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh
+[1.659s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv
+[1.660s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info
+[1.660s] -- Installing: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[1.660s] -- Installing: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[1.661s] -- Installing: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.661s] -- Installing: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.661s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg
+[1.662s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg/__init__.py
+[1.662s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg/module_to_import.py
+[1.684s] Listing '/home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages/my_cpp_py_pkg'...
+[1.688s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/py_node.py
+[1.688s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+[1.689s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+[1.689s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+[1.689s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+[1.690s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+[1.690s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+[1.690s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+[1.691s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+[1.691s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+[1.691s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+[1.692s] -- Installing: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+[1.694s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+[1.694s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+[1.694s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+[1.695s] -- Up-to-date: /home/user/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml
+[1.704s] Invoked command in '/home/user/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_cpp_py_pkg

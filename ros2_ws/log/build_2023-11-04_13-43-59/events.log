@@ -1,0 +1,563 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (navigation_tb3) JobQueued: {'identifier': 'navigation_tb3', 'dependencies': OrderedDict()}
+[0.000189] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.000222] (robot_test) JobQueued: {'identifier': 'robot_test', 'dependencies': OrderedDict()}
+[0.000290] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000874] (navigation_tb3) JobStarted: {'identifier': 'navigation_tb3'}
+[0.054694] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.064356] (robot_test) JobStarted: {'identifier': 'robot_test'}
+[0.074664] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.088380] (navigation_tb3) JobProgress: {'identifier': 'navigation_tb3', 'progress': 'cmake'}
+[0.089260] (navigation_tb3) JobProgress: {'identifier': 'navigation_tb3', 'progress': 'build'}
+[0.090047] (navigation_tb3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/navigation_tb3', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/navigation_tb3', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/navigation_tb3'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.172692] (-) TimerEvent: {}
+[0.173820] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'cmake'}
+[0.174145] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/robot_control', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robot_control'], 'cwd': '/home/user/ros2_ws/build/robot_control', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/robot_control'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.176676] (robot_test) JobProgress: {'identifier': 'robot_test', 'progress': 'cmake'}
+[0.177276] (robot_test) JobProgress: {'identifier': 'robot_test', 'progress': 'build'}
+[0.177543] (robot_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/robot_test', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/robot_test', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/robot_test'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.184380] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.184437] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.184473] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/turtlebot3_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/turtlebot3_gazebo'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.272867] (-) TimerEvent: {}
+[0.373325] (-) TimerEvent: {}
+[0.473771] (-) TimerEvent: {}
+[0.574211] (-) TimerEvent: {}
+[0.674609] (-) TimerEvent: {}
+[0.784907] (-) TimerEvent: {}
+[0.885478] (-) TimerEvent: {}
+[0.985904] (-) TimerEvent: {}
+[1.086303] (-) TimerEvent: {}
+[1.186663] (-) TimerEvent: {}
+[1.287052] (-) TimerEvent: {}
+[1.387392] (-) TimerEvent: {}
+[1.487859] (-) TimerEvent: {}
+[1.588221] (-) TimerEvent: {}
+[1.688538] (-) TimerEvent: {}
+[1.788852] (-) TimerEvent: {}
+[1.889224] (-) TimerEvent: {}
+[1.989570] (-) TimerEvent: {}
+[2.089913] (-) TimerEvent: {}
+[2.190279] (-) TimerEvent: {}
+[2.290687] (-) TimerEvent: {}
+[2.391108] (-) TimerEvent: {}
+[2.491426] (-) TimerEvent: {}
+[2.591884] (-) TimerEvent: {}
+[2.692178] (-) TimerEvent: {}
+[2.792466] (-) TimerEvent: {}
+[2.892773] (-) TimerEvent: {}
+[2.993106] (-) TimerEvent: {}
+[3.093438] (-) TimerEvent: {}
+[3.193832] (-) TimerEvent: {}
+[3.294203] (-) TimerEvent: {}
+[3.394524] (-) TimerEvent: {}
+[3.494873] (-) TimerEvent: {}
+[3.595220] (-) TimerEvent: {}
+[3.695502] (-) TimerEvent: {}
+[3.795802] (-) TimerEvent: {}
+[3.896116] (-) TimerEvent: {}
+[3.996427] (-) TimerEvent: {}
+[4.096661] (-) TimerEvent: {}
+[4.197089] (-) TimerEvent: {}
+[4.243464] (robot_test) CommandEnded: {'returncode': 0}
+[4.262974] (navigation_tb3) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_navigation_tb3\n'}
+[4.273739] (robot_test) JobProgress: {'identifier': 'robot_test', 'progress': 'install'}
+[4.284122] (robot_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/robot_test'], 'cwd': '/home/user/ros2_ws/build/robot_test', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/robot_test'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[4.294956] (robot_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.297212] (-) TimerEvent: {}
+[4.299104] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/launch\n'}
+[4.299395] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/launch/test.launch.py\n'}
+[4.299632] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/package_run_dependencies/robot_test\n'}
+[4.299832] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/parent_prefix_path/robot_test\n'}
+[4.300148] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/ament_prefix_path.sh\n'}
+[4.300342] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/ament_prefix_path.dsv\n'}
+[4.300459] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/path.sh\n'}
+[4.300542] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/path.dsv\n'}
+[4.300639] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.bash\n'}
+[4.300725] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.sh\n'}
+[4.300932] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.zsh\n'}
+[4.301059] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.dsv\n'}
+[4.301244] (robot_test) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/package.dsv\n'}
+[4.301449] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/packages/robot_test\n'}
+[4.301600] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/cmake/robot_testConfig.cmake\n'}
+[4.301755] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/cmake/robot_testConfig-version.cmake\n'}
+[4.301900] (robot_test) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/package.xml\n'}
+[4.303090] (robot_test) CommandEnded: {'returncode': 0}
+[4.397344] (-) TimerEvent: {}
+[4.498930] (-) TimerEvent: {}
+[4.510686] (robot_test) JobEnded: {'identifier': 'robot_test', 'rc': 0}
+[4.599097] (-) TimerEvent: {}
+[4.699475] (-) TimerEvent: {}
+[4.799846] (-) TimerEvent: {}
+[4.900161] (-) TimerEvent: {}
+[4.968276] (navigation_tb3) StdoutLine: {'line': b'running egg_info\n'}
+[4.969440] (navigation_tb3) StdoutLine: {'line': b'writing navigation_tb3.egg-info/PKG-INFO\n'}
+[4.969754] (navigation_tb3) StdoutLine: {'line': b'writing dependency_links to navigation_tb3.egg-info/dependency_links.txt\n'}
+[4.970045] (navigation_tb3) StdoutLine: {'line': b'writing top-level names to navigation_tb3.egg-info/top_level.txt\n'}
+[4.974219] (navigation_tb3) StdoutLine: {'line': b"reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'\n"}
+[4.974900] (navigation_tb3) StdoutLine: {'line': b"writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'\n"}
+[5.000326] (-) TimerEvent: {}
+[5.002533] (navigation_tb3) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_navigation_tb3_egg\n'}
+[5.100468] (-) TimerEvent: {}
+[5.182675] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target turtlebot3_drive\n'}
+[5.183067] (navigation_tb3) StdoutLine: {'line': b'[100%] Built target pub_occupancy_grid\n'}
+[5.192380] (navigation_tb3) CommandEnded: {'returncode': 0}
+[5.200627] (-) TimerEvent: {}
+[5.226040] (navigation_tb3) JobProgress: {'identifier': 'navigation_tb3', 'progress': 'install'}
+[5.227008] (navigation_tb3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/navigation_tb3'], 'cwd': '/home/user/ros2_ws/build/navigation_tb3', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/navigation_tb3'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[5.234013] (navigation_tb3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.234300] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid\n'}
+[5.234515] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch\n'}
+[5.234687] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/mapping2.launch.py\n'}
+[5.234937] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py\n'}
+[5.235095] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/navigation2.launch.py\n'}
+[5.235241] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py\n'}
+[5.235384] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config\n'}
+[5.235534] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm\n'}
+[5.235745] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/test.yaml\n'}
+[5.235986] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz\n'}
+[5.236113] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz\n'}
+[5.236294] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/test.pgm\n'}
+[5.236413] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml\n'}
+[5.236532] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml\n'}
+[5.236859] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua\n'}
+[5.237028] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapping2.rviz\n'}
+[5.237138] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh\n'}
+[5.237242] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv\n'}
+[5.237343] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info\n'}
+[5.237445] (navigation_tb3) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.237547] (navigation_tb3) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.237642] (navigation_tb3) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.237808] (navigation_tb3) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.237979] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3\n'}
+[5.238087] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3/__init__.py\n'}
+[5.273801] (navigation_tb3) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3'...\n"}
+[5.278288] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py\n'}
+[5.278595] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py\n'}
+[5.278816] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3\n'}
+[5.279119] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3\n'}
+[5.279393] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh\n'}
+[5.279648] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv\n'}
+[5.279821] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.sh\n'}
+[5.280065] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.dsv\n'}
+[5.280352] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.bash\n'}
+[5.280543] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.sh\n'}
+[5.280719] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.zsh\n'}
+[5.280925] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.dsv\n'}
+[5.281096] (navigation_tb3) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.dsv\n'}
+[5.281256] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3\n'}
+[5.281411] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake\n'}
+[5.281571] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake\n'}
+[5.281733] (navigation_tb3) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.xml\n'}
+[5.282625] (navigation_tb3) CommandEnded: {'returncode': 0}
+[5.300723] (-) TimerEvent: {}
+[5.352266] (navigation_tb3) JobEnded: {'identifier': 'navigation_tb3', 'rc': 0}
+[5.400896] (-) TimerEvent: {}
+[5.501227] (-) TimerEvent: {}
+[5.601536] (-) TimerEvent: {}
+[5.708878] (-) TimerEvent: {}
+[5.809303] (-) TimerEvent: {}
+[5.909699] (-) TimerEvent: {}
+[6.010071] (-) TimerEvent: {}
+[6.110381] (-) TimerEvent: {}
+[6.210745] (-) TimerEvent: {}
+[6.311190] (-) TimerEvent: {}
+[6.411521] (-) TimerEvent: {}
+[6.511838] (-) TimerEvent: {}
+[6.612163] (-) TimerEvent: {}
+[6.712501] (-) TimerEvent: {}
+[6.812844] (-) TimerEvent: {}
+[6.913177] (-) TimerEvent: {}
+[7.013497] (-) TimerEvent: {}
+[7.113844] (-) TimerEvent: {}
+[7.214186] (-) TimerEvent: {}
+[7.314596] (-) TimerEvent: {}
+[7.414965] (-) TimerEvent: {}
+[7.506867] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle2\n'}
+[7.507166] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[7.507307] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[7.515151] (-) TimerEvent: {}
+[7.518702] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[7.568577] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[7.569177] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/turtlebot3_gazebo'], 'cwd': '/home/user/ros2_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/turtlebot3_gazebo'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[7.577997] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.578341] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[7.578608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[7.578872] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[7.579306] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[7.579591] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[7.579865] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[7.580254] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[7.580495] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[7.580762] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[7.581136] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[7.581416] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[7.581728] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[7.582002] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[7.582408] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[7.582601] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[7.582847] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[7.583152] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[7.583378] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[7.583492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[7.583626] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[7.583802] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[7.584000] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[7.584179] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[7.584303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[7.584407] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[7.584517] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[7.584619] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[7.584719] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[7.584878] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[7.584986] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[7.585150] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[7.585719] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[7.589106] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[7.589485] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[7.589789] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[7.589993] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[7.590311] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[7.590612] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[7.590828] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common\n'}
+[7.591144] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes\n'}
+[7.591381] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[7.591624] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[7.591804] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[7.592028] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[7.592223] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[7.592456] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[7.592662] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[7.592950] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[7.593188] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[7.593413] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[7.593623] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[7.595490] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[7.595914] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[7.596168] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[7.596367] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[7.596702] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[7.597134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[7.597496] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[7.597867] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[7.598104] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[7.598284] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[7.598640] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[7.598956] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[7.599475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[7.602067] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[7.602382] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[7.602814] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[7.602967] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[7.603381] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[7.603808] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[7.604071] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[7.604478] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[7.604665] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[7.605157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/include/\n'}
+[7.605354] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[7.605657] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[7.606006] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[7.606203] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[7.606400] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[7.606710] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[7.606898] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[7.607292] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[7.607487] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[7.607751] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[7.608057] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[7.608302] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[7.609013] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[7.610205] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[7.610369] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.610519] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.610675] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[7.610839] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[7.610986] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[7.611146] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[7.615286] (-) TimerEvent: {}
+[7.670174] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[7.715476] (-) TimerEvent: {}
+[7.815841] (-) TimerEvent: {}
+[7.916191] (-) TimerEvent: {}
+[8.016549] (-) TimerEvent: {}
+[8.116934] (-) TimerEvent: {}
+[8.217310] (-) TimerEvent: {}
+[8.317716] (-) TimerEvent: {}
+[8.418054] (-) TimerEvent: {}
+[8.518376] (-) TimerEvent: {}
+[8.618694] (-) TimerEvent: {}
+[8.719089] (-) TimerEvent: {}
+[8.819391] (-) TimerEvent: {}
+[8.919660] (-) TimerEvent: {}
+[9.019995] (-) TimerEvent: {}
+[9.120374] (-) TimerEvent: {}
+[9.120644] (robot_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[9.220532] (-) TimerEvent: {}
+[9.320827] (-) TimerEvent: {}
+[9.421127] (-) TimerEvent: {}
+[9.521438] (-) TimerEvent: {}
+[9.621842] (-) TimerEvent: {}
+[9.722232] (-) TimerEvent: {}
+[9.822577] (-) TimerEvent: {}
+[9.922798] (-) TimerEvent: {}
+[10.023131] (-) TimerEvent: {}
+[10.123420] (-) TimerEvent: {}
+[10.223725] (-) TimerEvent: {}
+[10.324055] (-) TimerEvent: {}
+[10.424413] (-) TimerEvent: {}
+[10.524751] (-) TimerEvent: {}
+[10.625072] (-) TimerEvent: {}
+[10.725412] (-) TimerEvent: {}
+[10.825827] (-) TimerEvent: {}
+[10.926298] (-) TimerEvent: {}
+[11.026648] (-) TimerEvent: {}
+[11.126948] (-) TimerEvent: {}
+[11.227259] (-) TimerEvent: {}
+[11.327594] (-) TimerEvent: {}
+[11.427916] (-) TimerEvent: {}
+[11.528241] (-) TimerEvent: {}
+[11.628607] (-) TimerEvent: {}
+[11.728902] (-) TimerEvent: {}
+[11.829263] (-) TimerEvent: {}
+[11.929569] (-) TimerEvent: {}
+[11.948365] (robot_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[11.998726] (robot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.029746] (-) TimerEvent: {}
+[12.130084] (-) TimerEvent: {}
+[12.147149] (robot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.156527] (robot_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.157201] (robot_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.158045] (robot_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.163064] (robot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.230253] (-) TimerEvent: {}
+[12.330595] (-) TimerEvent: {}
+[12.404450] (robot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.413639] (robot_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.413991] (robot_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.414615] (robot_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.422731] (robot_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[12.430736] (-) TimerEvent: {}
+[12.531062] (-) TimerEvent: {}
+[12.631384] (-) TimerEvent: {}
+[12.731686] (-) TimerEvent: {}
+[12.831997] (-) TimerEvent: {}
+[12.932374] (-) TimerEvent: {}
+[13.032767] (-) TimerEvent: {}
+[13.082083] (robot_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[13.132832] (-) TimerEvent: {}
+[13.233136] (-) TimerEvent: {}
+[13.294820] (robot_control) StdoutLine: {'line': b'-- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[13.333264] (-) TimerEvent: {}
+[13.433593] (-) TimerEvent: {}
+[13.496024] (robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[13.526342] (robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[13.533731] (-) TimerEvent: {}
+[13.577704] (robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.622694] (robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.633876] (-) TimerEvent: {}
+[13.734180] (-) TimerEvent: {}
+[13.834557] (-) TimerEvent: {}
+[13.918253] (robot_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[13.928979] (robot_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[13.934681] (-) TimerEvent: {}
+[14.035040] (-) TimerEvent: {}
+[14.135448] (-) TimerEvent: {}
+[14.235805] (-) TimerEvent: {}
+[14.336100] (-) TimerEvent: {}
+[14.436379] (-) TimerEvent: {}
+[14.536686] (-) TimerEvent: {}
+[14.637090] (-) TimerEvent: {}
+[14.737453] (-) TimerEvent: {}
+[14.837800] (-) TimerEvent: {}
+[14.938095] (-) TimerEvent: {}
+[15.038377] (-) TimerEvent: {}
+[15.138696] (-) TimerEvent: {}
+[15.177355] (robot_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[15.221573] (robot_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[15.238829] (-) TimerEvent: {}
+[15.291466] (robot_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.339004] (-) TimerEvent: {}
+[15.439366] (-) TimerEvent: {}
+[15.539689] (-) TimerEvent: {}
+[15.639910] (-) TimerEvent: {}
+[15.740291] (-) TimerEvent: {}
+[15.840649] (-) TimerEvent: {}
+[15.841994] (robot_control) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[15.904936] (robot_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[15.940797] (-) TimerEvent: {}
+[16.041131] (-) TimerEvent: {}
+[16.140469] (robot_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.140840] (robot_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[16.141033] (robot_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.141156] (-) TimerEvent: {}
+[16.144147] (robot_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.147545] (robot_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.147776] (robot_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.148690] (robot_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.152681] (robot_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.241338] (-) TimerEvent: {}
+[16.341737] (-) TimerEvent: {}
+[16.411866] (robot_control) StdoutLine: {'line': b'-- Generating done\n'}
+[16.413863] (robot_control) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/robot_control\n'}
+[16.423640] (robot_control) CommandEnded: {'returncode': 0}
+[16.424404] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'build'}
+[16.424697] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/robot_control', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/robot_control', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/robot_control'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[16.441910] (-) TimerEvent: {}
+[16.473436] (robot_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[16.542064] (-) TimerEvent: {}
+[16.642381] (-) TimerEvent: {}
+[16.742682] (-) TimerEvent: {}
+[16.842988] (-) TimerEvent: {}
+[16.943299] (-) TimerEvent: {}
+[17.043617] (-) TimerEvent: {}
+[17.143943] (-) TimerEvent: {}
+[17.244264] (-) TimerEvent: {}
+[17.344489] (-) TimerEvent: {}
+[17.444828] (-) TimerEvent: {}
+[17.545115] (-) TimerEvent: {}
+[17.645406] (-) TimerEvent: {}
+[17.745743] (-) TimerEvent: {}
+[17.846104] (-) TimerEvent: {}
+[17.946416] (-) TimerEvent: {}
+[18.046698] (-) TimerEvent: {}
+[18.147038] (-) TimerEvent: {}
+[18.247368] (-) TimerEvent: {}
+[18.347655] (-) TimerEvent: {}
+[18.448019] (-) TimerEvent: {}
+[18.548313] (-) TimerEvent: {}
+[18.648596] (-) TimerEvent: {}
+[18.748831] (-) TimerEvent: {}
+[18.849136] (-) TimerEvent: {}
+[18.949448] (-) TimerEvent: {}
+[19.049868] (-) TimerEvent: {}
+[19.150298] (-) TimerEvent: {}
+[19.250675] (-) TimerEvent: {}
+[19.351050] (-) TimerEvent: {}
+[19.451419] (-) TimerEvent: {}
+[19.551816] (-) TimerEvent: {}
+[19.652231] (-) TimerEvent: {}
+[19.752621] (-) TimerEvent: {}
+[19.853020] (-) TimerEvent: {}
+[19.953395] (-) TimerEvent: {}
+[20.053775] (-) TimerEvent: {}
+[20.154204] (-) TimerEvent: {}
+[20.254657] (-) TimerEvent: {}
+[20.355046] (-) TimerEvent: {}
+[20.455423] (-) TimerEvent: {}
+[20.555820] (-) TimerEvent: {}
+[20.656258] (-) TimerEvent: {}
+[20.756690] (-) TimerEvent: {}
+[20.857121] (-) TimerEvent: {}
+[20.957494] (-) TimerEvent: {}
+[21.057879] (-) TimerEvent: {}
+[21.158254] (-) TimerEvent: {}
+[21.258603] (-) TimerEvent: {}
+[21.358999] (-) TimerEvent: {}
+[21.459390] (-) TimerEvent: {}
+[21.559762] (-) TimerEvent: {}
+[21.660145] (-) TimerEvent: {}
+[21.760555] (-) TimerEvent: {}
+[21.860863] (-) TimerEvent: {}
+[21.961267] (-) TimerEvent: {}
+[22.061712] (-) TimerEvent: {}
+[22.162114] (-) TimerEvent: {}
+[22.262510] (-) TimerEvent: {}
+[22.362877] (-) TimerEvent: {}
+[22.463198] (-) TimerEvent: {}
+[22.563585] (-) TimerEvent: {}
+[22.663971] (-) TimerEvent: {}
+[22.764367] (-) TimerEvent: {}
+[22.864737] (-) TimerEvent: {}
+[22.965136] (-) TimerEvent: {}
+[23.065428] (-) TimerEvent: {}
+[23.165838] (-) TimerEvent: {}
+[23.266217] (-) TimerEvent: {}
+[23.366668] (-) TimerEvent: {}
+[23.467052] (-) TimerEvent: {}
+[23.567466] (-) TimerEvent: {}
+[23.667851] (-) TimerEvent: {}
+[23.768241] (-) TimerEvent: {}
+[23.868640] (-) TimerEvent: {}
+[23.969098] (-) TimerEvent: {}
+[24.069485] (-) TimerEvent: {}
+[24.169947] (-) TimerEvent: {}
+[24.270323] (-) TimerEvent: {}
+[24.370762] (-) TimerEvent: {}
+[24.471187] (-) TimerEvent: {}
+[24.571488] (-) TimerEvent: {}
+[24.671872] (-) TimerEvent: {}
+[24.772259] (-) TimerEvent: {}
+[24.872640] (-) TimerEvent: {}
+[24.973077] (-) TimerEvent: {}
+[25.073494] (-) TimerEvent: {}
+[25.173906] (-) TimerEvent: {}
+[25.274345] (-) TimerEvent: {}
+[25.374657] (-) TimerEvent: {}
+[25.475107] (-) TimerEvent: {}
+[25.575481] (-) TimerEvent: {}
+[25.675876] (-) TimerEvent: {}
+[25.776268] (-) TimerEvent: {}
+[25.876666] (-) TimerEvent: {}
+[25.977123] (-) TimerEvent: {}
+[26.077497] (-) TimerEvent: {}
+[26.177914] (-) TimerEvent: {}
+[26.278323] (-) TimerEvent: {}
+[26.378726] (-) TimerEvent: {}
+[26.479116] (-) TimerEvent: {}
+[26.579499] (-) TimerEvent: {}
+[26.679922] (-) TimerEvent: {}
+[26.780316] (-) TimerEvent: {}
+[26.880724] (-) TimerEvent: {}
+[26.981151] (-) TimerEvent: {}
+[27.081558] (-) TimerEvent: {}
+[27.181936] (-) TimerEvent: {}
+[27.282314] (-) TimerEvent: {}
+[27.382640] (-) TimerEvent: {}
+[27.483049] (-) TimerEvent: {}
+[27.583430] (-) TimerEvent: {}
+[27.683793] (-) TimerEvent: {}
+[27.784186] (-) TimerEvent: {}
+[27.884550] (-) TimerEvent: {}
+[27.984903] (-) TimerEvent: {}
+[28.085248] (-) TimerEvent: {}
+[28.185580] (-) TimerEvent: {}
+[28.285944] (-) TimerEvent: {}
+[28.361371] (robot_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[28.386082] (-) TimerEvent: {}
+[28.486443] (-) TimerEvent: {}
+[28.586782] (-) TimerEvent: {}
+[28.687090] (-) TimerEvent: {}
+[28.787429] (-) TimerEvent: {}
+[28.887804] (-) TimerEvent: {}
+[28.988144] (-) TimerEvent: {}
+[29.088488] (-) TimerEvent: {}
+[29.188825] (-) TimerEvent: {}
+[29.289173] (-) TimerEvent: {}
+[29.389568] (-) TimerEvent: {}
+[29.403142] (robot_control) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[29.412770] (robot_control) CommandEnded: {'returncode': 0}
+[29.443842] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'install'}
+[29.444190] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/robot_control'], 'cwd': '/home/user/ros2_ws/build/robot_control', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/robot_control'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/navigation_tb3:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', '607dd9f7-1572-4a1b-8cf0-c7a4e7c65b63'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25271'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[29.451525] (robot_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.451761] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/lib/robot_control/talker\n'}
+[29.453575] (robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/robot_control/lib/robot_control/talker" to ""\n'}
+[29.453768] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control\n'}
+[29.453985] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control\n'}
+[29.454225] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh\n'}
+[29.454421] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv\n'}
+[29.454672] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/path.sh\n'}
+[29.454878] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv\n'}
+[29.455071] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.bash\n'}
+[29.455252] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.sh\n'}
+[29.455536] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh\n'}
+[29.455714] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv\n'}
+[29.455863] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/package.dsv\n'}
+[29.456090] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control\n'}
+[29.456443] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake\n'}
+[29.456694] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake\n'}
+[29.457003] (robot_control) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/package.xml\n'}
+[29.458457] (robot_control) CommandEnded: {'returncode': 0}
+[29.489752] (-) TimerEvent: {}
+[29.515076] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[29.516018] (-) EventReactorShutdown: {}

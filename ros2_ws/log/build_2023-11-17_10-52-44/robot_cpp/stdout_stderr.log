@@ -1,0 +1,20 @@
+[ 50%] Built target publisher
+[100%] Built target LaserScan
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/lib/robot_cpp/publisher
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/lib/robot_cpp/LaserScan
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/ament_index/resource_index/package_run_dependencies/robot_cpp
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/ament_index/resource_index/parent_prefix_path/robot_cpp
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/ament_index/resource_index/packages/robot_cpp
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/cmake/robot_cppConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/cmake/robot_cppConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/package.xml

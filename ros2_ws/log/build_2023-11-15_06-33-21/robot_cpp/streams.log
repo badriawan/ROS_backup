@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/home/user/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_cpp -- -j8 -l8
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[6.810s] [100%] [32m[1mLinking CXX executable publisher[0m
+[7.006s] [100%] Built target publisher
+[7.016s] Invoked command in '/home/user/ros2_ws/build/robot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_cpp -- -j8 -l8
+[7.065s] Invoking command in '/home/user/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_cpp
+[7.072s] -- Install configuration: ""
+[7.072s] -- Installing: /home/user/ros2_ws/install/robot_cpp/lib/robot_cpp/publisher
+[7.075s] -- Set runtime path of "/home/user/ros2_ws/install/robot_cpp/lib/robot_cpp/publisher" to ""
+[7.076s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/ament_index/resource_index/package_run_dependencies/robot_cpp
+[7.076s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/ament_index/resource_index/parent_prefix_path/robot_cpp
+[7.076s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/environment/ament_prefix_path.sh
+[7.076s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/environment/ament_prefix_path.dsv
+[7.077s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/environment/path.sh
+[7.077s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/environment/path.dsv
+[7.077s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.bash
+[7.078s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.sh
+[7.078s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.zsh
+[7.080s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/local_setup.dsv
+[7.080s] -- Installing: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/package.dsv
+[7.082s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/ament_index/resource_index/packages/robot_cpp
+[7.082s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/cmake/robot_cppConfig.cmake
+[7.083s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/cmake/robot_cppConfig-version.cmake
+[7.083s] -- Up-to-date: /home/user/ros2_ws/install/robot_cpp/share/robot_cpp/package.xml
+[7.083s] Invoked command in '/home/user/ros2_ws/build/robot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_cpp

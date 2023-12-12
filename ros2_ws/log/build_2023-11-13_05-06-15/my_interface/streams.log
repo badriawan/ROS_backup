@@ -1,0 +1,14 @@
+[0.115s] Invoking command in '/home/user/ros2_ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_interface -- -j8 -l8
+[1.250s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.251s] Traceback (most recent call last):
+[1.252s]   File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[1.252s]     sys.exit(main())
+[1.252s]   File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[1.252s]     generate_type_hash(args.generator_arguments_file)
+[1.253s]   File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash
+[1.253s]     pkg_dir = include_map[pkg]
+[1.254s] KeyError: 'geometry_msgs'
+[1.254s] gmake[2]: *** [CMakeFiles/my_interface__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/my_interface/msg/Targetcoordinate.json] Error 1
+[1.255s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/my_interface__rosidl_generator_type_description.dir/all] Error 2
+[1.255s] gmake: *** [Makefile:146: all] Error 2
+[1.339s] Invoked command in '/home/user/ros2_ws/build/my_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_interface -- -j8 -l8

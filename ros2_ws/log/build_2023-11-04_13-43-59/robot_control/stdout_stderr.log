@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/robot_control
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/robot_control/lib/robot_control/talker
+-- Set runtime path of "/home/user/ros2_ws/install/robot_control/lib/robot_control/talker" to ""
+-- Installing: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+-- Installing: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/package.dsv
+-- Installing: /home/user/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/robot_control/share/robot_control/package.xml

@@ -1,0 +1,11 @@
+[console_scripts]
+my_publisher = robot_python.my_publisher:main
+my_service = robot_python.my_service:main
+my_subscriber = robot_python.my_subscriber:main
+my_subtest = robot_python.my_subtest:main
+test_node = robot_python.my_first_node:main
+turtlesim_go = robot_python.turtlesim_go:main
+
+[launch.frontend]
+launch = launch:robot_python.launch [launch.frontend]
+

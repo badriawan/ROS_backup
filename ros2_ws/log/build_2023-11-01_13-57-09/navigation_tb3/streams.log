@@ -1,0 +1,89 @@
+[0.046s] Invoking command in '/home/user/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/navigation_tb3
+[7.874s] -- The C compiler identification is GNU 11.3.0
+[10.605s] -- The CXX compiler identification is GNU 11.3.0
+[10.669s] -- Detecting C compiler ABI info
+[11.115s] -- Detecting C compiler ABI info - done
+[11.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.128s] -- Detecting C compile features
+[11.129s] -- Detecting C compile features - done
+[11.135s] -- Detecting CXX compiler ABI info
+[11.424s] -- Detecting CXX compiler ABI info - done
+[11.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.436s] -- Detecting CXX compile features
+[11.437s] -- Detecting CXX compile features - done
+[11.592s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[12.485s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[12.849s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[13.185s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[13.221s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[13.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.677s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[13.689s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[14.303s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.361s] -- Found FastRTPS: /opt/ros/iron/include  
+[14.441s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.056s] -- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+[15.606s] -- Found rclpy: 4.1.1 (/opt/ros/iron/share/rclpy/cmake)
+[15.871s] -- Configuring done
+[16.181s] -- Generating done
+[16.183s] -- Build files have been written to: /home/user/ros2_ws/build/navigation_tb3
+[16.198s] Invoked command in '/home/user/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/navigation_tb3
+[16.202s] Invoking command in '/home/user/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/navigation_tb3 -- -j8 -l8
+[16.260s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_occupancy_grid.dir/src/pub_occupancy_grid.cpp.o[0m
+[16.273s] [ 50%] Built target ament_cmake_python_copy_navigation_tb3
+[17.077s] running egg_info
+[17.078s] creating navigation_tb3.egg-info
+[17.078s] writing navigation_tb3.egg-info/PKG-INFO
+[17.079s] writing dependency_links to navigation_tb3.egg-info/dependency_links.txt
+[17.079s] writing top-level names to navigation_tb3.egg-info/top_level.txt
+[17.079s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[17.083s] reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[17.084s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[17.116s] [ 50%] Built target ament_cmake_python_build_navigation_tb3_egg
+[30.115s] [100%] [32m[1mLinking CXX executable pub_occupancy_grid[0m
+[31.888s] [100%] Built target pub_occupancy_grid
+[31.902s] Invoked command in '/home/user/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/navigation_tb3 -- -j8 -l8
+[31.961s] Invoking command in '/home/user/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/navigation_tb3
+[31.975s] -- Install configuration: ""
+[31.976s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid
+[31.978s] -- Set runtime path of "/home/user/ros2_ws/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid" to ""
+[31.978s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch
+[31.978s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py
+[31.979s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py
+[31.979s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config
+[31.979s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm
+[31.980s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz
+[31.980s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz
+[31.980s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml
+[31.980s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml
+[31.980s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua
+[31.980s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh
+[31.981s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv
+[31.981s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info
+[31.981s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO
+[31.982s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt
+[31.983s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+[31.983s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+[31.983s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3
+[31.984s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3/__init__.py
+[32.031s] Listing '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3'...
+[32.031s] Compiling '/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages/navigation_tb3/__init__.py'...
+[32.037s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py
+[32.037s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py
+[32.037s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3
+[32.038s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3
+[32.038s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh
+[32.039s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv
+[32.039s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.sh
+[32.040s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.dsv
+[32.040s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.bash
+[32.040s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.sh
+[32.040s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.zsh
+[32.041s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.dsv
+[32.042s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.dsv
+[32.042s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3
+[32.042s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake
+[32.042s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake
+[32.042s] -- Installing: /home/user/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.xml
+[32.045s] Invoked command in '/home/user/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/navigation_tb3

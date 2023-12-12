@@ -1,0 +1,22 @@
+[1.297s] Invoking command in '/home/user/ros2_ws/build/robot_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_test -- -j8 -l8
+[1.582s] Invoked command in '/home/user/ros2_ws/build/robot_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_test -- -j8 -l8
+[1.886s] Invoking command in '/home/user/ros2_ws/build/robot_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_test
+[1.906s] -- Install configuration: ""
+[1.906s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/launch
+[1.912s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/launch/test.launch.py
+[1.912s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/package_run_dependencies/robot_test
+[1.912s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/parent_prefix_path/robot_test
+[1.913s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/ament_prefix_path.sh
+[1.913s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/ament_prefix_path.dsv
+[1.913s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/path.sh
+[1.913s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/path.dsv
+[1.913s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.bash
+[1.914s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.sh
+[1.914s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.zsh
+[1.914s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.dsv
+[1.914s] -- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/package.dsv
+[1.914s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/packages/robot_test
+[1.915s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/cmake/robot_testConfig.cmake
+[1.915s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/cmake/robot_testConfig-version.cmake
+[1.915s] -- Up-to-date: /home/user/ros2_ws/install/robot_test/share/robot_test/package.xml
+[2.009s] Invoked command in '/home/user/ros2_ws/build/robot_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robot_test

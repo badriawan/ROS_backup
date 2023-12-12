@@ -1,0 +1,28 @@
+-- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/robot_test
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/launch
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/launch/test.launch.py
+-- Installing: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/package_run_dependencies/robot_test
+-- Installing: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/parent_prefix_path/robot_test
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/package.dsv
+-- Installing: /home/user/ros2_ws/install/robot_test/share/ament_index/resource_index/packages/robot_test
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/cmake/robot_testConfig.cmake
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/cmake/robot_testConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/robot_test/share/robot_test/package.xml

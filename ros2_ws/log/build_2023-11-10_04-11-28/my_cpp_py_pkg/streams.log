@@ -1,0 +1,20 @@
+[0.087s] Invoking command in '/home/user/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_cpp_py_pkg
+[0.998s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.999s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.999s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.999s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.003s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.006s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.196s] -- Found rclpy: 4.1.1 (/opt/ros/iron/share/rclpy/cmake)
+[2.197s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[2.197s]   ament_target_dependencies() the first argument must be a valid target name
+[2.197s] Call Stack (most recent call first):
+[2.197s]   CMakeLists.txt:19 (ament_target_dependencies)
+[2.197s] 
+[2.198s] [0m
+[2.198s] -- Configuring incomplete, errors occurred!
+[2.198s] See also "/home/user/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/CMakeOutput.log".
+[2.205s] Invoked command in '/home/user/ros2_ws/build/my_cpp_py_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_cpp_py_pkg

@@ -1,0 +1,4 @@
+Invoking command in '/home/user/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/turtlebot3_gazebo
+Invoked command in '/home/user/ros2_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/turtlebot3_gazebo
+Invoking command in '/home/user/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8
+Invoked command in '/home/user/ros2_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8

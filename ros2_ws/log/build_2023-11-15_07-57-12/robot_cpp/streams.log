@@ -1,0 +1,81 @@
+[0.095s] Invoking command in '/home/user/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/robot_python:/home/user/ros2_ws/install/my_cpp_py_pkg:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_cpp -- -j8 -l8
+[0.892s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.996s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[2.204s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.230s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.321s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.645s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.650s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.277s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.792s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[3.845s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[4.123s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.288s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.289s] -- Configured cppcheck include dirs: 
+[4.289s] -- Configured cppcheck exclude dirs and/or files: 
+[4.290s] -- Added test 'lint_cmake' to check CMake code style
+[4.292s] -- Added test 'uncrustify' to check C / C++ code style
+[4.292s] -- Configured uncrustify additional arguments: 
+[4.293s] -- Added test 'xmllint' to check XML markup files
+[4.295s] -- Configuring done
+[4.525s] -- Generating done
+[4.528s] -- Build files have been written to: /home/user/ros2_ws/build/robot_cpp
+[4.559s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[4.569s] [ 25%] [32mBuilding CXX object CMakeFiles/LaserScan.dir/src/laserscan.cpp.o[0m
+[4.580s] [ 75%] Built target publisher
+[17.087s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:[m[K In constructor '[01m[KLaserScan::LaserScan()[m[K':
+[17.087s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:21:27:[m[K [01;31m[Kerror: [m[Kclass '[01m[KLaserScan[m[K' does not have any field named '[01m[Kcount_[m[K'
+[17.087s]    21 |     : Node("Laser_scan"), [01;31m[Kcount_[m[K(0)
+[17.087s]       |                           [01;31m[K^~~~~~[m[K
+[17.089s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:25:37:[m[K [01;31m[Kerror: [m[Kwrong type argument to bit-complement
+[17.089s]    25 |       500ms, std::bind(&~[01;31m[KLaserScan::timer_callback[m[K, this));
+[17.089s]       |                          [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.182s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:[m[K In member function '[01m[Kvoid LaserScan::timer_callback()[m[K':
+[17.182s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:35:53:[m[K [01;31m[Kerror: [m[K'[01m[Kcount_[m[K' was not declared in this scope
+[17.183s]    35 |       message.data = "Laser data " + std::to_string([01;31m[Kcount_[m[K++);
+[17.183s]       |                                                     [01;31m[K^~~~~~[m[K
+[17.184s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:[m[K In member function '[01m[Kvoid LaserScan::timer_callback2()[m[K':
+[17.184s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:43:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.184s]    43 |       laser_msg[01;31m[K->[m[Kheader.frame_id = "laser_frame";
+[17.184s]       |                [01;31m[K^~[m[K
+[17.184s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:44:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.184s]    44 |       laser_msg[01;31m[K->[m[Kheader.stamp = this->now();
+[17.184s]       |                [01;31m[K^~[m[K
+[17.184s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:45:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.185s]    45 |       laser_msg[01;31m[K->[m[Kangle_min = 0.0;
+[17.185s]       |                [01;31m[K^~[m[K
+[17.185s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:46:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.185s]    46 |       laser_msg[01;31m[K->[m[Kangle_max = 2.0 * M_PI;
+[17.185s]       |                [01;31m[K^~[m[K
+[17.185s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:47:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.185s]    47 |       laser_msg[01;31m[K->[m[Kangle_increment = 0.1;
+[17.185s]       |                [01;31m[K^~[m[K
+[17.185s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:48:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.185s]    48 |       laser_msg[01;31m[K->[m[Ktime_increment = 0.001;
+[17.185s]       |                [01;31m[K^~[m[K
+[17.185s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:49:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.186s]    49 |       laser_msg[01;31m[K->[m[Kscan_time = 0.1;
+[17.186s]       |                [01;31m[K^~[m[K
+[17.186s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:50:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.186s]    50 |       laser_msg[01;31m[K->[m[Krange_min = 0.0;
+[17.186s]       |                [01;31m[K^~[m[K
+[17.186s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:51:16:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.186s]    51 |       laser_msg[01;31m[K->[m[Krange_max = 10.0;
+[17.186s]       |                [01;31m[K^~[m[K
+[17.186s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:52:36:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.186s]    52 |       for (double angle = laser_msg[01;31m[K->[m[Kangle_min; angle <= laser_msg->angle_max; angle += laser_msg->angle_increment)
+[17.186s]       |                                    [01;31m[K^~[m[K
+[17.187s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:52:67:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.187s]    52 |       for (double angle = laser_msg->angle_min; angle <= laser_msg[01;31m[K->[m[Kangle_max; angle += laser_msg->angle_increment)
+[17.187s]       |                                                                   [01;31m[K^~[m[K
+[17.187s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:52:98:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.187s]    52 |       for (double angle = laser_msg->angle_min; angle <= laser_msg->angle_max; angle += laser_msg[01;31m[K->[m[Kangle_increment)
+[17.187s]       |                                                                                                  [01;31m[K^~[m[K
+[17.187s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:54:17:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K'
+[17.187s]    54 |        laser_msg[01;31m[K->[m[Kranges.push_back(5.0 + 3.0 * std::sin(angle));
+[17.187s]       |                 [01;31m[K^~[m[K
+[18.756s] gmake[2]: *** [CMakeFiles/LaserScan.dir/build.make:76: CMakeFiles/LaserScan.dir/src/laserscan.cpp.o] Error 1
+[18.756s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/LaserScan.dir/all] Error 2
+[18.756s] gmake: *** [Makefile:146: all] Error 2
+[18.759s] Invoked command in '/home/user/ros2_ws/build/robot_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/robot_python:/home/user/ros2_ws/install/my_cpp_py_pkg:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_cpp -- -j8 -l8

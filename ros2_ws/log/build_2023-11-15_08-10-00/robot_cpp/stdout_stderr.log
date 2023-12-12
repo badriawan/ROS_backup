@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target LaserScan[0m
+[ 50%] Built target publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/LaserScan.dir/src/laserscan.cpp.o[0m
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:6[m[K:
+[01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:[m[K In member function '[01m[Kvoid LaserScan::timer_callback2()[m[K':
+[01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:56:69:[m[K [01;31m[Kerror: [m[K'[01m[Kstruct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K' has no member named '[01m[Kdata[m[K'
+   56 | CLCPP_INFO(this->get_logger(), "Publishing: '%d'", laser_msg.[01;31m[Kdata[m[K);
+      |                                                              [01;31m[K^~~~[m[K
+
+gmake[2]: *** [CMakeFiles/LaserScan.dir/build.make:76: CMakeFiles/LaserScan.dir/src/laserscan.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/LaserScan.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

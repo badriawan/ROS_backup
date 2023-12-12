@@ -1,0 +1,22 @@
+[0.022s] Invoking command in '/home/user/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/robot_cpp -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robot_cpp
+[0.035s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.235s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.236s]   By not providing "Findrlcpp.cmake" in CMAKE_MODULE_PATH this project has
+[0.236s]   asked CMake to find a package configuration file provided by "rlcpp", but
+[0.236s]   CMake did not find one.
+[0.236s] 
+[0.236s]   Could not find a package configuration file provided by "rlcpp" with any of
+[0.236s]   the following names:
+[0.236s] 
+[0.236s]     rlcppConfig.cmake
+[0.236s]     rlcpp-config.cmake
+[0.237s] 
+[0.237s]   Add the installation prefix of "rlcpp" to CMAKE_PREFIX_PATH or set
+[0.237s]   "rlcpp_DIR" to a directory containing one of the above files.  If "rlcpp"
+[0.237s]   provides a separate development package or SDK, be sure it has been
+[0.237s]   installed.
+[0.237s] 
+[0.237s] [0m
+[0.237s] -- Configuring incomplete, errors occurred!
+[0.237s] See also "/home/user/ros2_ws/build/robot_cpp/CMakeFiles/CMakeOutput.log".
+[0.239s] Invoked command in '/home/user/ros2_ws/build/robot_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_python:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/robot_cpp -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robot_cpp

@@ -1,0 +1,30 @@
+[4.135s] Invoking command in '/home/user/ros2_ws/src/robot_python': PYTHONPATH=/home/user/ros2_ws/build/robot_python/prefix_override:/home/user/ros2_ws/install/robot_python/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_python build --build-base /home/user/ros2_ws/build/robot_python/build install --record /home/user/ros2_ws/build/robot_python/install.log --single-version-externally-managed
+[5.405s] running egg_info
+[5.409s] writing ../../build/robot_python/robot_python.egg-info/PKG-INFO
+[5.411s] writing dependency_links to ../../build/robot_python/robot_python.egg-info/dependency_links.txt
+[5.418s] writing entry points to ../../build/robot_python/robot_python.egg-info/entry_points.txt
+[5.418s] writing requirements to ../../build/robot_python/robot_python.egg-info/requires.txt
+[5.418s] writing top-level names to ../../build/robot_python/robot_python.egg-info/top_level.txt
+[5.436s] reading manifest file '../../build/robot_python/robot_python.egg-info/SOURCES.txt'
+[5.501s] writing manifest file '../../build/robot_python/robot_python.egg-info/SOURCES.txt'
+[5.503s] running build
+[5.503s] running build_py
+[5.503s] copying robot_python/my_service.py -> /home/user/ros2_ws/build/robot_python/build/lib/robot_python
+[5.511s] running install
+[5.511s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.511s]   warnings.warn(
+[5.512s] running install_lib
+[5.512s] copying /home/user/ros2_ws/build/robot_python/build/lib/robot_python/my_service.py -> /home/user/ros2_ws/install/robot_python/lib/python3.10/site-packages/robot_python
+[5.512s] byte-compiling /home/user/ros2_ws/install/robot_python/lib/python3.10/site-packages/robot_python/my_service.py to my_service.cpython-310.pyc
+[5.513s] running install_data
+[5.513s] copying package.xml -> /home/user/ros2_ws/install/robot_python/share/robot_python
+[5.515s] running install_egg_info
+[5.516s] removing '/home/user/ros2_ws/install/robot_python/lib/python3.10/site-packages/robot_python-0.0.0-py3.10.egg-info' (and everything under it)
+[5.516s] Copying ../../build/robot_python/robot_python.egg-info to /home/user/ros2_ws/install/robot_python/lib/python3.10/site-packages/robot_python-0.0.0-py3.10.egg-info
+[5.517s] running install_scripts
+[5.539s] Installing my_publisher script to /home/user/ros2_ws/install/robot_python/lib/robot_python
+[5.539s] Installing my_service script to /home/user/ros2_ws/install/robot_python/lib/robot_python
+[5.543s] Installing my_subscriber script to /home/user/ros2_ws/install/robot_python/lib/robot_python
+[5.543s] Installing test_node script to /home/user/ros2_ws/install/robot_python/lib/robot_python
+[5.543s] writing list of installed files to '/home/user/ros2_ws/build/robot_python/install.log'
+[5.635s] Invoked command in '/home/user/ros2_ws/src/robot_python' returned '0': PYTHONPATH=/home/user/ros2_ws/build/robot_python/prefix_override:/home/user/ros2_ws/install/robot_python/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_python build --build-base /home/user/ros2_ws/build/robot_python/build install --record /home/user/ros2_ws/build/robot_python/install.log --single-version-externally-managed

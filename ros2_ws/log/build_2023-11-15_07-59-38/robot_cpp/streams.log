@@ -1,0 +1,19 @@
+[0.092s] Invoking command in '/home/user/ros2_ws/build/robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/robot_python:/home/user/ros2_ws/install/my_cpp_py_pkg:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_cpp -- -j8 -l8
+[1.437s] [35m[1mConsolidate compiler generated dependencies of target LaserScan[0m
+[1.438s] [ 50%] Built target publisher
+[1.438s] [ 75%] [32mBuilding CXX object CMakeFiles/LaserScan.dir/src/laserscan.cpp.o[0m
+[5.609s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:[m[K In constructor '[01m[KLaserScan::LaserScan()[m[K':
+[5.609s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:21:27:[m[K [01;31m[Kerror: [m[Kclass '[01m[KLaserScan[m[K' does not have any field named '[01m[Kcount_[m[K'
+[5.609s]    21 |     : Node("Laser_scan"), [01;31m[Kcount_[m[K(0)
+[5.610s]       |                           [01;31m[K^~~~~~[m[K
+[5.612s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:25:37:[m[K [01;31m[Kerror: [m[Kwrong type argument to bit-complement
+[5.612s]    25 |       500ms, std::bind(&~[01;31m[KLaserScan::timer_callback[m[K, this));
+[5.612s]       |                          [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[5.630s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:[m[K In member function '[01m[Kvoid LaserScan::timer_callback()[m[K':
+[5.630s] [01m[K/home/user/ros2_ws/src/robot_cpp/src/laserscan.cpp:35:53:[m[K [01;31m[Kerror: [m[K'[01m[Kcount_[m[K' was not declared in this scope
+[5.630s]    35 |       message.data = "Laser data " + std::to_string([01;31m[Kcount_[m[K++);
+[5.630s]       |                                                     [01;31m[K^~~~~~[m[K
+[7.084s] gmake[2]: *** [CMakeFiles/LaserScan.dir/build.make:76: CMakeFiles/LaserScan.dir/src/laserscan.cpp.o] Error 1
+[7.084s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/LaserScan.dir/all] Error 2
+[7.084s] gmake: *** [Makefile:146: all] Error 2
+[7.087s] Invoked command in '/home/user/ros2_ws/build/robot_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/robot_python:/home/user/ros2_ws/install/my_cpp_py_pkg:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robot_cpp -- -j8 -l8

@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001195] (-) JobUnselected: {'identifier': 'my_cpp_py_pkg'}
+[0.001274] (-) JobUnselected: {'identifier': 'navigation_tb3'}
+[0.001324] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.001365] (-) JobUnselected: {'identifier': 'robot_python'}
+[0.001866] (-) JobUnselected: {'identifier': 'robot_test'}
+[0.001924] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001971] (robot_cpp) JobQueued: {'identifier': 'robot_cpp', 'dependencies': OrderedDict()}
+[0.002423] (robot_cpp) JobStarted: {'identifier': 'robot_cpp'}
+[0.018347] (robot_cpp) JobProgress: {'identifier': 'robot_cpp', 'progress': 'cmake'}
+[0.018994] (robot_cpp) JobProgress: {'identifier': 'robot_cpp', 'progress': 'build'}
+[0.019936] (robot_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/robot_cpp', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/robot_cpp', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://4_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '4_xterm'), ('PWD', '/home/user/ros2_ws/build/robot_cpp'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/robot_cpp:/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/robot_python:/home/user/ros2_ws/install/robot_control:/home/user/ros2_ws/install/navigation_tb3:/home/user/ros2_ws/install/my_cpp_py_pkg:/opt/ros/iron'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/robot_cpp:/home/user/ros2_ws/install/turtlebot3_gazebo:/home/user/ros2_ws/install/robot_test:/home/user/ros2_ws/install/robot_control:/home/user/ros2_ws/install/navigation_tb3:/home/user/ros2_ws/install/my_cpp_py_pkg:/home/user/ros2_ws/install/robot_python:/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/robot_python/lib/python3.10/site-packages:/home/user/ros2_ws/install/navigation_tb3/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_cpp_py_pkg/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '4_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://4_xterm:11311'), ('ROS_HOSTNAME', '4_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('SLOT_SHELL_START_ID', '724763'), ('SLOT_PREFIX', 'ce8d4c9f-e232-4275-8688-5a3f83a33b3f'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25757'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'iron'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin'), ('NODE_VERSION', 'v6.11.2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'iron'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20004'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.072806] (robot_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.099574] (-) TimerEvent: {}
+[0.199956] (-) TimerEvent: {}
+[0.300418] (-) TimerEvent: {}
+[0.400865] (-) TimerEvent: {}
+[0.501253] (-) TimerEvent: {}
+[0.601692] (-) TimerEvent: {}
+[0.702144] (-) TimerEvent: {}
+[0.802597] (-) TimerEvent: {}
+[0.903039] (-) TimerEvent: {}
+[1.003508] (-) TimerEvent: {}
+[1.103975] (-) TimerEvent: {}
+[1.204443] (-) TimerEvent: {}
+[1.304904] (-) TimerEvent: {}
+[1.405380] (-) TimerEvent: {}
+[1.505846] (-) TimerEvent: {}
+[1.606310] (-) TimerEvent: {}
+[1.706777] (-) TimerEvent: {}
+[1.807242] (-) TimerEvent: {}
+[1.907711] (-) TimerEvent: {}
+[2.008209] (-) TimerEvent: {}
+[2.108670] (-) TimerEvent: {}
+[2.209112] (-) TimerEvent: {}
+[2.309559] (-) TimerEvent: {}
+[2.410037] (-) TimerEvent: {}
+[2.510505] (-) TimerEvent: {}
+[2.610972] (-) TimerEvent: {}
+[2.711441] (-) TimerEvent: {}
+[2.811911] (-) TimerEvent: {}
+[2.912424] (-) TimerEvent: {}
+[3.012899] (-) TimerEvent: {}
+[3.113362] (-) TimerEvent: {}
+[3.177847] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:\x1b[m\x1b[K In constructor '\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K':\n"}
+[3.178116] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:24:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for '\x1b[01m\x1b[Koperator=\x1b[m\x1b[K' (operand types are '\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K'} and '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K')\n"}
+[3.178246] (robot_cpp) StderrLine: {'line': b'   24 | her_2 = this->create_publisher<std_msgs::msg::Int16>("topic2", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.178376] (robot_cpp) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.178496] (robot_cpp) StderrLine: {'line': b'\n'}
+[3.179691] (robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.180097] (robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.180499] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[3.180741] (robot_cpp) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[3.180957] (robot_cpp) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.181165] (robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.181395] (robot_cpp) StderrLine: {'line': b"/usr/include/c++/11/bits/shared_ptr.h: In substitution of '\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K':\n"}
+[3.181641] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K'\n"}
+[3.181880] (robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:24:78:\x1b[m\x1b[K   required from here\n'}
+[3.182118] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named '\x1b[01m\x1b[Ktype\x1b[m\x1b[K' in '\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >&>\x1b[m\x1b[K'\n"}
+[3.182353] (robot_cpp) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.182577] (robot_cpp) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.182809] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[3.183105] (robot_cpp) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[3.183341] (robot_cpp) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.183575] (robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.183804] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:24:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K' is not derived from '\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K'\n"}
+[3.184093] (robot_cpp) StderrLine: {'line': b'   24 | her_2 = this->create_publisher<std_msgs::msg::Int16>("topic2", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.184324] (robot_cpp) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.184553] (robot_cpp) StderrLine: {'line': b'\n'}
+[3.184781] (robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.185013] (robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.185230] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[3.185441] (robot_cpp) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[3.185645] (robot_cpp) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.185861] (robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.186083] (robot_cpp) StderrLine: {'line': b"/usr/include/c++/11/bits/shared_ptr.h: In substitution of '\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K':\n"}
+[3.186324] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of '\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K'\n"}
+[3.186554] (robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:24:78:\x1b[m\x1b[K   required from here\n'}
+[3.186765] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named '\x1b[01m\x1b[Ktype\x1b[m\x1b[K' in '\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >&>\x1b[m\x1b[K'\n"}
+[3.186988] (robot_cpp) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.187217] (robot_cpp) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.187444] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[3.187677] (robot_cpp) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[3.187934] (robot_cpp) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.188167] (robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.188413] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:24:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K' is not derived from '\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K'\n"}
+[3.188646] (robot_cpp) StderrLine: {'line': b'   24 | her_2 = this->create_publisher<std_msgs::msg::Int16>("topic2", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.188878] (robot_cpp) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.189107] (robot_cpp) StderrLine: {'line': b'\n'}
+[3.189332] (robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.189562] (robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.189793] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[3.190037] (robot_cpp) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[3.190304] (robot_cpp) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.190536] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K' to '\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >&\x1b[m\x1b[K'\n"}
+[3.190752] (robot_cpp) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[3.190948] (robot_cpp) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.191129] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K'\n"}
+[3.191313] (robot_cpp) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[3.191527] (robot_cpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.191747] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int16_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K' to '\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > > >&&\x1b[m\x1b[K'\n"}
+[3.191992] (robot_cpp) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[3.192207] (robot_cpp) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.192424] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback2()\x1b[m\x1b[K':\n"}
+[3.192646] (robot_cpp) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/robot_cpp/src/publisher.cpp:40:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before '\x1b[01m\x1b[K;\x1b[m\x1b[K' token\n"}
+[3.192884] (robot_cpp) StderrLine: {'line': b'   40 |       auto message = std_msgs::msg::Int16\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[3.193113] (robot_cpp) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.213472] (-) TimerEvent: {}
+[3.313867] (-) TimerEvent: {}
+[3.414334] (-) TimerEvent: {}
+[3.514802] (-) TimerEvent: {}
+[3.615264] (-) TimerEvent: {}
+[3.715733] (-) TimerEvent: {}
+[3.816221] (-) TimerEvent: {}
+[3.916654] (-) TimerEvent: {}
+[4.017090] (-) TimerEvent: {}
+[4.117525] (-) TimerEvent: {}
+[4.217981] (-) TimerEvent: {}
+[4.318443] (-) TimerEvent: {}
+[4.418910] (-) TimerEvent: {}
+[4.519378] (-) TimerEvent: {}
+[4.581912] (robot_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1\n'}
+[4.582231] (robot_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Error 2\n'}
+[4.582368] (robot_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.584142] (robot_cpp) CommandEnded: {'returncode': 2}
+[4.619903] (-) TimerEvent: {}
+[4.635096] (robot_cpp) JobEnded: {'identifier': 'robot_cpp', 'rc': 2}
+[4.645640] (-) EventReactorShutdown: {}

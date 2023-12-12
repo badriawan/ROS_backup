@@ -1,0 +1,21 @@
+[01m[K/home/user/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:9:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kspin(My_cpp_py_pkg&)[m[K'
+    9 |     [01;31m[Krclcpp::spin(node)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/user/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:46:1:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K'
+   46 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:46:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[KMy_cpp_py_pkg[m[K' to '[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K' {aka '[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K'}
+   46 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:50:1:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K'
+   50 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:50:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[KMy_cpp_py_pkg[m[K' to '[01m[Krclcpp::Node::SharedPtr[m[K' {aka '[01m[Kstd::shared_ptr<rclcpp::Node>[m[K'}
+   50 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_exe.dir/build.make:76: CMakeFiles/cpp_exe.dir/src/cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/cpp_exe.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
